@@ -1,0 +1,13 @@
+# This Compose file defines two services: web and redis.
+version: '3.90'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+    environment:
+      FLASK_ENV: development
+  redis:
+    image: "redis:alpine"

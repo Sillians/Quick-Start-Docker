@@ -33,8 +33,10 @@ Creating flask-compose_web_1 ... done
 ```
 
 After the application starts, navigate to `http://localhost:5000` in your web browser or run:
+
 `$ curl localhost:5000`
-Hello Sillians World!
+``` Hello Sillians World!
+```
 
 Stop and remove the containers
 `$ docker-compose down`
