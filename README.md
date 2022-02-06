@@ -1,2 +1,2 @@
 # Quick-Start-Docker
-Trying out stuff with Docker
+Trying out simple stuff with Docker
