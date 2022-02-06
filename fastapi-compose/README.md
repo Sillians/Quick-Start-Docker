@@ -13,7 +13,7 @@ Project structure:
 
 Docker compose yaml file
 
-services:
+`services:
   api:
     build: .
     container_name: fastapi-application
@@ -21,9 +21,9 @@ services:
       PORT: 8000
     ports:
       - '8000:8000'
-    restart: "no"
+    restart: "no"`
 
 
 Deploy with docker-compose
 
-**docker-compose up -d --build**
+`docker-compose up -d --build`
